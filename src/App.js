@@ -39,7 +39,7 @@ class App extends Component {
 
     const { posts } = this.props;
     return (
-      <div className="App">
+      <div className="App" data-test="appy">
         <Header />
         <section className="main">
           <Headline header="Posts" desc="Click the button to render the posts." tempArr={tempArr} />
